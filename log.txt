@@ -1,3 +1,7 @@
 Start: Fri, 6 Feb 2015 12:45:00 -0800
 End: Wed, 7 Jan 2015 13:15:00 -0800
 Tasks: Worked on loopback.php 
+
+Start: Sat, 7 Feb 2015 18:30:00 -0800
+End: Sat, 7 Jan 2015 13:15:00 -0800
+Tasks: changed loopback.php from string to objects

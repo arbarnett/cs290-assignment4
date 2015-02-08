@@ -7,17 +7,23 @@ Behavior if a key is passed in and no value is specified is undefined.
 If no key value pairs are passed it it should return {"Type":"[GET|POST]", "parameters":null}. 
 You are welcome to use built in JSON function in PHP to produce this output. -->
 <?php
-$postArray = "Type: [POST], parameters: {";
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-// 	foreach($_POST as $key=>$value) {
-// 		$postArray = $postArray . $key . ':' . $value . '}';
-// 	}
-// }
-// echo json_encode($postArray);
-	echo json_encode($_POST);
+	$postArray = array(
+		"Type" => "POST",
+		"parameters" => $_POST
+	);
+
+	echo json_encode($postArray);
 }
-$getArray = "Type: [GET], parameters: {";
+
 if($_SERVER['REQUEST_METHOD'] === 'GET') {
-	echo json_encode($_GET);
+	$getArray = array(
+		"Type" => "GET",
+		"parameters" => $_GET
+
+	);	
+
+	echo json_encode($getArray);
 }
 ?>
