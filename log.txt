@@ -5,3 +5,7 @@ Tasks: Worked on loopback.php
 Start: Sat, 7 Feb 2015 18:30:00 -0800
 End: Sat, 7 Feb 2015 18:47:00 -0800
 Tasks: changed loopback.php from string to objects and tested it
+
+Start: Sun, 8 Feb 2015 09:40:00 -0800
+End: Sat, 7 Feb 2015 10:31:00 -0800
+Tasks: Did the variable getting and error checking for multtable and tested it
