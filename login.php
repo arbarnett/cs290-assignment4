@@ -15,6 +15,7 @@
  </html>
  <?php
  if($_GET['logout'] == 1) {
+ 	session_start();
  	$_SESSION = array();
  	session_destroy();
  	echo "Session destroyed";
