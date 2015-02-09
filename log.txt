@@ -22,3 +22,8 @@ Tasks: made the login button with html
 Start: Mon, 9 Feb 2015 11:30:00 -0800
 End: Mon, 9 Feb 2015 12:07:00 -0800
 Tasks: figured out redirect to login.php if user enters a null username
+
+Start: Mon, 9 Feb 2015 13:25:00 -0800
+End: Mon, 9 Feb 2015 13:38:00 -0800
+Tasks: Added content to content1.php (visit count and greeting)
+      Still need to end session
