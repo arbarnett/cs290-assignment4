@@ -15,7 +15,10 @@ End: Sat, 7 Feb 2015 13:59:00 -0800
 Tasks: Created the multiplication table
 
 Start: Mon, 9 Feb 2015 09:43:00 -0800
-End: Sat, 9 Feb 2015 10:44:00 -0800
+End: Mon, 9 Feb 2015 10:44:00 -0800
 Tasks: made the login button with html
        made error message if empty, tried to figure out redirect back to main page
 
+Start: Mon, 9 Feb 2015 11:30:00 -0800
+End: Mon, 9 Feb 2015 12:07:00 -0800
+Tasks: figured out redirect to login.php if user enters a null username
