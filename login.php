@@ -13,3 +13,11 @@
  </fieldset>
  </form>
  </html>
+ <?php
+ if($_GET['logout'] == 1) {
+ 	$_SESSION = array();
+ 	session_destroy();
+ 	echo "Session destroyed";
+ 	die();
+ }
+ ?>

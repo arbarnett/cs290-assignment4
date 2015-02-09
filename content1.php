@@ -16,15 +16,14 @@ if(!empty($_POST['username'])) {
 		if(!isset($_SESSION['visits'])) {
 			$_SESSION['visits'] = 0;
 		}
-
+		
+		$_SESSION['visits']++;
+		
 		echo "Hello $_SESSION[username]. You have visited this page $_SESSION[visits] times before.\n";
 
-		$_SESSION['visits']++;
-	
-		//this needs to also end the session
 		echo "Click ";
-		echo "<a href=http://web.engr.oregonstate.edu/~barnetal/login.php>here</a>";
-		echo " to logout.\n"
+		echo "<a href=http://web.engr.oregonstate.edu/~barnetal/login.php?logout=1>here</a>";
+		echo " to logout.\n";
 	}
 }
 ?>

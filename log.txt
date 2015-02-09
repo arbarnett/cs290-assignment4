@@ -27,3 +27,7 @@ Start: Mon, 9 Feb 2015 13:25:00 -0800
 End: Mon, 9 Feb 2015 13:38:00 -0800
 Tasks: Added content to content1.php (visit count and greeting)
       Still need to end session
+
+Start: Mon, 9 Feb 2015 16:05:00 -0800
+End: Mon, 9 Feb 2015 16:27:00 -0800
+Tasks: began to end the session.  count persists between users though
