@@ -1,3 +1,15 @@
-Start: Thurs, 5 Feb 2015 21:42:26 -0800
-End: Wed, 7 Jan 2015 22:42:26 -0800
-Tasks: During this period I drew a diagram of the classes I will be using to implement
+<!DOCTYPE html>
+<html>
+ <form id='login' action='login.php' method='POST' accept-charset='UTF-8'>
+ <fieldset>
+ <legend>Login</legend>
+ <input type='hidden' name='submitted' id='submitted' value='1'/>
+
+ <label for='username'> UserName:</label>
+ <input type='text' name='username' id='username' maxlength='50'/>
+
+ <input type='submit' name='Submit' value='Submit'/>
+
+ </fieldset>
+ </form>
+ </html>

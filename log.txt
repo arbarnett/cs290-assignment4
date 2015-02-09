@@ -13,3 +13,7 @@ Tasks: Did the variable getting and error checking for multtable and tested it
 Start: Sun, 8 Feb 2015 12:00:00 -0800
 End: Sat, 7 Feb 2015 13:59:00 -0800
 Tasks: Created the multiplication table
+
+Start: Mon, 9 Feb 2015 09:43:00 -0800
+End: Sat, 9 Feb 2015 10:00:00 -0800
+Tasks: made the login button with html
