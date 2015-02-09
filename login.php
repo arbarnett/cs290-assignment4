@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
- <form id='login' action='login.php' method='POST' accept-charset='UTF-8'>
+ <form id='login' action='content1.php' method='POST' accept-charset='UTF-8'>
  <fieldset>
  <legend>Login</legend>
  <input type='hidden' name='submitted' id='submitted' value='1'/>
