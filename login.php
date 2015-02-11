@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+ <head>	
+ </head>
+ <body>
  <form id='login' action='content1.php' method='POST' accept-charset='UTF-8'>
  <fieldset>
  <legend>Login</legend>
@@ -12,6 +15,7 @@
 
  </fieldset>
  </form>
+ </body>
  </html>
  <?php
  if($_GET['logout'] == 1) {

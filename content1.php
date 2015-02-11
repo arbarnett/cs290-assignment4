@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 if(empty($_POST['username'])) {
 		echo "A username must be entered. Click ";
@@ -6,15 +7,21 @@ if(empty($_POST['username'])) {
 		echo " to return to the login screen.\n";
 	}
 
-if(!empty($_POST['username'])) {
-	session_start();
+else if(!empty($_POST['username']) ||) {
 
+
+
+
+
+
+
+else
 	if(session_status() == PHP_SESSION_ACTIVE) {
 		if(isset($_POST['username'])) {
 			$_SESSION['username'] = $_POST['username'];
 		}
 		if(!isset($_SESSION['visits'])) {
-			$_SESSION['visits'] = 0;
+			$_SESSION['visits'] = -1;
 		}
 		
 		$_SESSION['visits']++;
@@ -24,6 +31,12 @@ if(!empty($_POST['username'])) {
 		echo "Click ";
 		echo "<a href=http://web.engr.oregonstate.edu/~barnetal/login.php?logout=1>here</a>";
 		echo " to logout.\n";
+	
+		echo "\n";
+
+		echo "Click ";
+		echo "<a href=http://web.engr.oregonstate.edu/~barnetal/content2.php>here</a>";
+		echo " to go to content2.php.\n";
 	}
 }
 ?>

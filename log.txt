@@ -31,3 +31,8 @@ Tasks: Added content to content1.php (visit count and greeting)
 Start: Mon, 9 Feb 2015 16:05:00 -0800
 End: Mon, 9 Feb 2015 16:43:00 -0800
 Tasks: began to end the session. 
+
+Start: Weds, 11 Feb 2015 8:45:00 -0800
+End: Weds, 11 Feb 2015 00:00:00 -0800
+Tasks: ended the session and added content to content2.php
+        not working
