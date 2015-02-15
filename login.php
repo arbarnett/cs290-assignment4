@@ -22,7 +22,7 @@
  	session_start();
  	$_SESSION = array();
  	session_destroy();
- 	echo "Session destroyed";
+ 	// echo "Session destroyed";
  	die();
  }
  ?>

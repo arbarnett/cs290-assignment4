@@ -36,3 +36,7 @@ Start: Weds, 11 Feb 2015 8:45:00 -0800
 End: Weds, 11 Feb 2015 09:06:00 -0800
 Tasks: ended the session and added content to content2.php
         not working
+
+Start: Sun, 15 Feb 2015 12:00:00 -0800
+End: Sun, 15 Feb 2015 12:10:00 -0800
+Tasks: cleaned it up
